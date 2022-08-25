@@ -12,19 +12,17 @@ date: 04/07/2022
 Preset Updater
 This scripts is used to update custom tools from the MenhirFX shelves, based on the changes brought to a selected node.
 IMPORTANT: For this script to work the preset node needs two custom parameters: preset_name, and shelf_name.
-These can be added through the Parameter Interface
+These can be added through the Parameter Interface or with Add Parm Script
 preset_name = string, should be the same as the name of the tool on the shelf
 shelf_name = string, should be the name of the shelf holding the tool that needs to be updated
-Limitations: can only update one node. Use a top node to contain multiple nodes if needed
 _______________________
 
 Updater de Presets
-Ce script sert ÃÂ  faciliter la mise ÃÂ  jour des presets des shelf MenhirFX, basÃÂ© sur les changement appliquÃÂ© ÃÂ  un node sÃÂ©lectionnÃÂ©.
-IMPORTANT: Pour que ce script marche le node de preset a besoin de deux paramÃÂ¨tres: preset_name, et shelf_name.
-Ces paramÃÂ¨tres peuvent ÃÂªtre ajoutÃÂ© via le Parameter Interface du node.
-preset_name = string, doit ÃÂªtre le mÃÂªme que le nom du tool qui correspond, sur la shelf
-shelf_name = string, doit ÃÂªtre le mÃÂªme que le nom de la shelf qui contient le tool ÃÂ  mettre ÃÂ  jour
-Limites: Ne peux mettre ÃÂ  jour qu\'un seul node. Utilisez un node gÃÂ©nÃÂ©ral, qui contient d\'autres node au besoin.
+Ce script sert a faciliter la mise a jour des presets des shelf MenhirFX, base sur les changement applique un node selectionne.
+IMPORTANT: Pour que ce script marche le node de preset a besoin de deux parametres: preset_name, et shelf_name.
+Ces parametres peuvent etre ajoutes via le Parameter Interface du node ou avec le Add Parm script
+preset_name = string, doit etre le meme que le nom du tool qui correspond, sur la shelf
+shelf_name = string, doit etre le meme que le nom de la shelf qui contient le tool a mettre a  jour
 '''
 logger = logging.getLogger("PRESET UPDATE")
 
