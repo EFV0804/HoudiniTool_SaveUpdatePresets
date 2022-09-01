@@ -27,5 +27,6 @@ If those conditions are met, then all that is needed is to select all the nodes,
 ## Install
 To install this tool, you can either use the shelf file by copying it to your usual Houdini shelf location, or you can use the python code directly in a Houdini Python editor.
 
-## Contact
-To Use this tool please contact MenhirFX at contact@menhirfx.com
+
+## Credits
+- [MenhirFX](www.menhirfx.com)
